@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* 전체 배경 설정 */
+body {
+  background-color: #1e1e1e; /* 어두운 배경 */
+  color: #fff; /* 텍스트 색상 */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 대시보드 컨테이너 */
+.admin-dashboard {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 페이지 제목 */
+h1 {
+  text-align: center;
+  color: #f9c800; /* 노란색 포인트 */
+  font-size: 36px;
+}
+h2 {
+  text-align: center;
+  color: #f9c800; /* 노란색 포인트 */
+  font-size: 20px;
+}
+/* 각 섹션 스타일 */
+h3 {
+  color: #f9c800; /* 노란색 포인트 */
+  margin-bottom: 10px;
+}
+button{
+  justify-content: center;
+  align-items: center;
+}
+/* 대시보드 상단 정보 배치 */
+.dashboard-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard-info div {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 8px;
+  width: 48%;
+  text-align: center;
+}
+
+.dashboard-info div h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.dashboard-info div p {
+  font-size: 20px;
+  color: #f9c800;
+}
+
+/* 최근 거래 내역 테이블 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #444;
+}
+
+table th {
+  background-color: #333;
+  color: #f9c800;
+  font-size: 18px;
+}
+
+table td {
+  background-color: #222;
+}
+
+/* 로그아웃 버튼 스타일 */
+button {
+  background-color: #f9c800;
+  color: #1e1e1e;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #d89e00;
+}
+
+/* 로그인 폼 스타일 */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+}
+
+form button {
+  background-color: #f9c800;
+  color: #1e1e1e;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form button:hover {
+  background-color: #d89e00;
+}
