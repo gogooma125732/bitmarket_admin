@@ -65,8 +65,7 @@ const AdminPage = () => {
         </form>
     </div>
     <button 
-  onClick={() => setIsAuthenticated(false)} 
-  style={{
+    style={{
     position: "fixed", 
     top: "20px", 
     right: "20px", 
