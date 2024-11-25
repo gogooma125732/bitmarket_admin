@@ -1,10 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 
 const AdminPage = () => {
-  const [isAuthenticated, setIsAuthenticated] = useState(true); // 로그인 상태 (실제로는 인증 체크 필요)
-
   // 임의의 데이터 (실제 API 호출 없이 임의 데이터로 대체)
   const adminData = {
     revenue: 32424232542532219,  // 총 수익
