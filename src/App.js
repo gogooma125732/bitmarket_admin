@@ -1,5 +1,4 @@
 import './App.css';
-import React, { useState} from "react";
 
 const AdminPage = () => {
   // 임의의 데이터 (실제 API 호출 없이 임의 데이터로 대체)
